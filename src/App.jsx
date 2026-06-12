@@ -1,6 +1,6 @@
 import React ,{ useState } from 'react';
 function ProfileCard(props) {
-  const [likes, setLikes] = useState(0);
+  
 
   return (
     <div style={{
@@ -22,6 +22,7 @@ function ProfileCard(props) {
 }
 
 function App() {
+  const [likes, setLikes] = useState(0);
   return (
     <div style={{ textAlign: 'center',padding: '20px'}}>
       <h1>My React Team Showcase </h1>
